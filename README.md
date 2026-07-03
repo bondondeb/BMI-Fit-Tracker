@@ -57,25 +57,25 @@ BMI-Fit-Tracker
 
 ---
 
-# 📸 Screenshots
+# 📸 App Screenshots
 
-## Home Screen
+| Home | BMI Calculator |
+|------|------|
+| ![Home](screenshots/home.jpeg) | ![BMI Calculator](screenshots/bmi-calculator.jpeg) |
 
-*(Add screenshot here)*
+| Fitness Goal | BMI History |
+|------|------|
+| ![Fitness Goal](screenshots/fitness-goal.jpeg) | ![History](screenshots/bmi-history.jpeg) |
 
-## BMI Result
+| AI Insights | Step Tracker |
+|------|------|
+| ![AI](screenshots/ai-insights.jpeg) | ![Steps](screenshots/step-tracker.jpeg) |
 
-*(Add screenshot here)*
+### Theme Settings
 
-## Step Tracker
-
-*(Add screenshot here)*
-
-## History
-
-*(Add screenshot here)*
-
----
+<p align="center">
+  <img src="screenshots/theme-settings.jpeg" width="280">
+</p>
 
 # ⚙️ Installation
 

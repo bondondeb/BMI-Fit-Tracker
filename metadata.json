@@ -1,0 +1,6 @@
+{
+  "name": "BMI Fit Tracker",
+  "description": "A beautiful, premium BMI Calculator with local history logs, PDF report exporting, real-time sensor step tracking, wearable device cloud sync, and customized Gemini-powered nutritional advice.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

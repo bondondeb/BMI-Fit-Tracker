@@ -1,0 +1,92 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background circular plate from the uploaded image -->
+    <path
+        android:fillColor="#E8F0F5"
+        android:pathData="M 54,54 m -44,0 a 44,44 0 1,1 88,0 a 44,44 0 1,1 -88,0" />
+
+    <!-- Teal segment of the gauge (180° to 120°) -->
+    <path
+        android:strokeColor="#41C3B1"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 37,44 A 17,17 0 0,1 45.5,29.28" />
+
+    <!-- Red segment of the gauge (60° to 0°) -->
+    <path
+        android:strokeColor="#F64A62"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 62.5,29.28 A 17,17 0 0,1 71,44" />
+
+    <!-- Yellow segment of the gauge (120° to 60°) overlapping to hide internal round caps -->
+    <path
+        android:strokeColor="#F4D33F"
+        android:strokeWidth="8"
+        android:strokeLineCap="butt"
+        android:strokeLineJoin="round"
+        android:pathData="M 45.5,29.28 A 17,17 0 0,1 62.5,29.28" />
+
+    <!-- Dark slate needle pointing beautifully to the right -->
+    <group
+        android:pivotX="54"
+        android:pivotY="44"
+        android:rotation="55">
+        <path
+            android:fillColor="#2E3A4E"
+            android:pathData="M 50,44 C 50,41.8 51.8,40 54,40 C 54.5,40 54.9,40.1 55.3,40.2 L 53.3,25 C 53.3,24.2 54.7,24.2 54.7,25 L 56.7,40.2 C 57.2,40.5 57.6,40.9 57.8,41.4 C 58,42.2 58,43.1 58,44 C 58,46.2 56.2,48 54,48 C 51.8,48 50,46.2 50,44 Z" />
+    </group>
+
+    <!-- "BMI" Text beautifully rendered with precise stroke paths -->
+    <path
+        android:strokeColor="#2E3A4E"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 36,66 L 36,78" />
+    <path
+        android:strokeColor="#2E3A4E"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 36,66 H 39.5 C 41.5,66 41.5,72 36,72" />
+    <path
+        android:strokeColor="#2E3A4E"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 36,72 H 39.5 C 41.5,72 41.5,78 36,78" />
+
+    <path
+        android:strokeColor="#2E3A4E"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 47,78 L 47,66 L 54,72 L 61,66 L 61,78" />
+
+    <path
+        android:strokeColor="#2E3A4E"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 66,66 H 72" />
+    <path
+        android:strokeColor="#2E3A4E"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 69,66 L 69,78" />
+    <path
+        android:strokeColor="#2E3A4E"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 66,78 H 72" />
+
+</vector>

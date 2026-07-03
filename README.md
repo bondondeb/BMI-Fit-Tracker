@@ -1,21 +1,142 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🏋️ BMI Fit Tracker
 
-# Run and deploy your AI Studio app
+![Platform](https://img.shields.io/badge/Platform-Android-green)
+![Language](https://img.shields.io/badge/Language-Kotlin-purple)
+![UI](https://img.shields.io/badge/UI-Jetpack%20Compose-blue)
+![Architecture](https://img.shields.io/badge/Architecture-MVVM-orange)
+![Database](https://img.shields.io/badge/Database-Room-red)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-This contains everything you need to run your app locally.
+An Android-based **BMI & Fitness Tracker** application developed using **Kotlin** and **Jetpack Compose**. The app helps users calculate their Body Mass Index (BMI), monitor daily steps, save BMI history, export reports as PDF, and receive AI-powered health suggestions using **Google Gemini AI**.
 
-View your app in AI Studio: https://ai.studio/apps/67a2f2ae-476a-4660-9afc-7e4d747984b4
+---
 
-## Run Locally
+# 📱 Features
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+- ✅ BMI Calculator
+- ✅ BMI History
+- ✅ Daily Step Counter
+- ✅ Room Database
+- ✅ PDF Report Export
+- ✅ Gemini AI Health Suggestions
+- ✅ Material Design UI
+- ✅ Dark Mode Support
+- ✅ MVVM Architecture
+- ✅ Unit & UI Testing
 
+---
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+# 🛠️ Tech Stack
+
+| Technology | Usage |
+|------------|-------|
+| Kotlin | Programming Language |
+| Jetpack Compose | UI Development |
+| MVVM | Architecture |
+| Room Database | Local Storage |
+| Material 3 | UI Components |
+| Google Gemini AI | AI Health Suggestions |
+| Android Sensors | Step Counter |
+| PDF Generator | Export Reports |
+
+---
+
+# 📂 Project Structure
+
+```
+BMI-Fit-Tracker
+│
+├── app
+├── assets
+├── gradle
+├── README.md
+├── build.gradle.kts
+├── settings.gradle.kts
+└── .gitignore
+```
+
+---
+
+# 📸 Screenshots
+
+## Home Screen
+
+*(Add screenshot here)*
+
+## BMI Result
+
+*(Add screenshot here)*
+
+## Step Tracker
+
+*(Add screenshot here)*
+
+## History
+
+*(Add screenshot here)*
+
+---
+
+# ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/bondondeb/BMI-Fit-Tracker.git
+```
+
+Open the project in **Android Studio**.
+
+Sync Gradle.
+
+Run the application on an emulator or Android device.
+
+---
+
+# 📊 Architecture
+
+```
+UI (Jetpack Compose)
+        │
+        ▼
+ViewModel
+        │
+        ▼
+Repository
+        │
+        ▼
+Room Database
+```
+
+---
+
+# 🚀 Future Improvements
+
+- User Authentication
+- Cloud Backup
+- Workout Planner
+- Diet Planner
+- Health Dashboard
+- Wear OS Support
+
+---
+
+# 👨‍💻 Developer
+
+**Bondon Deb**
+
+Diploma in Computer Science & Engineering
+
+Sylhet Polytechnic Institute
+
+GitHub: https://github.com/bondondeb
+
+---
+
+# 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## ⭐ If you like this project, don't forget to Star the repository!
